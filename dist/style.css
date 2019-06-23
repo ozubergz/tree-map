@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans');
+
+.main {
+  margin-top: 2%;
+  margin-left: 22%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chart {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7591b0;
+  border-radius: 10px;
+}
+
+rect {
+  stroke: white;
+}
+
+.text {
+  fill: white;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  transition: 0.25s;
+  transition-property: opacity;
+  pointer-events: none;
+  width: 250px;
+  height: 5em;
+  padding: 7px;
+  background-color: #ffede0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #51657b;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#title {
+  font-size: 48px;
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+}
+
+#description {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#legend {
+  color: black;
+}
